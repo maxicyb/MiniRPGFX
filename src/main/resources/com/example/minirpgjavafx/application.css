@@ -1,0 +1,9 @@
+.background_menu {
+    -fx-background-image:url("background_menu.png");
+}
+
+.background_combat{
+    -fx-background-image:url("background_combat.png");
+
+}
+

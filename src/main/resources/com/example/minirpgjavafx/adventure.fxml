@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" styleClass="background_combat" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.AdventureController">
+
+    <stylesheets>
+        <URL value="@application.css" />
+    </stylesheets>
+
+    <children>
+      <Button fx:id="attackBtn" layoutX="111.0" layoutY="270.0" mnemonicParsing="false" onAction="#attackButton" text="Attaquer" />
+      <Button fx:id="defBtn" layoutX="214.0" layoutY="270.0" mnemonicParsing="false" onAction="#defendButton" text="Défendre" />
+      <Button fx:id="consumableBtn" layoutX="150.0" layoutY="308.0" mnemonicParsing="false" onAction="#consumableButton" text="Consommable" />
+      <ProgressBar id="hpBarHero" fx:id="hpBarHero" layoutX="98.0" layoutY="44.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar id="hpBarEnemy" fx:id="hpBarEnemy" layoutX="545.0" layoutY="44.0" prefWidth="200.0" progress="0.0" />
+      <Label fx:id="actionHeroDisplayerLabel" layoutX="324.0" layoutY="49.0" prefHeight="57.0" prefWidth="188.0" text="Texte des actions du héros au milieu" textFill="WHITE" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="heroStatDisplayerLabel" layoutX="147.0" layoutY="348.0" text="Stat Hero" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="monsterStatDisplayerLabel" layoutX="593.0" layoutY="348.0" text="Stat Monster" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="actionEnemyDisplayerLabel" layoutX="324.0" layoutY="155.0" prefHeight="57.0" prefWidth="188.0" text="Texte des actions de l'ennemi" textFill="WHITE" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="heroImageView" fitHeight="150.0" fitWidth="200.0" layoutX="98.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

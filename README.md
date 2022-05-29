@@ -1,4 +1,5 @@
 # MiniRPGFX
+Le projet se trouve dans la branche master
 
 Toutes les fonctionnalités du MiniRPG sont présentes sans l'interface graphique.
 

@@ -7,6 +7,7 @@
   • Le Healer n'a pas été implémenté, mais la classe abstraite Spellcaster et son composant Mage est bien présent <br>
  <br>
 •Les fonctionnalités implémentées de l'UI sont les suivantes : <br>
+
   • Menu "play" implémenté. <br>
   • Demande du nombre de héros à l'utilisateur à donner dans un textfield. <br>
   • L'utilisateur peut choisir ses héros et commencer l'aventure. <br>
